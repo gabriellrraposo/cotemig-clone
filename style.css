@@ -10,6 +10,18 @@ body {
     font-family: Lato;
 }
 
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #40aa0b;
+  }
+
 /* Header */
 
 .telefoneTop {
@@ -29,4 +41,71 @@ body {
 
 .telefoneTop a {
     color: white;
+}
+
+.barraNavegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    padding: 0 20%;
+    background-color: rgba(0, 0, 0, 75%);
+
+}
+
+.barraNavegacao nav {
+    width: 65%;
+    border: solid 1px black;
+}
+
+.barraNavegacao nav h1 {
+    display: inline;
+    margin-left: 4%;
+}
+
+.barraNavegacao nav a {
+    color: white;
+    margin-left: 4%;
+}
+
+#logo {
+    padding: 1% 0;
+    height: 60px;
+}
+
+.bannerPrincipal {
+    background: url(./img/imagemBanner.png) no-repeat;
+    display: flex;
+    flex-direction: column;
+
+    padding: 10% 20%;
+    color: white;
+}
+
+.bannerPrincipal h2 {
+    margin-bottom: 1.5%;
+
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.bannerPrincipal p {
+    font-size: 1.1rem;
+}
+
+.bannerPrincipal button {
+    margin-top: 4%;
+    padding: 1% 0;
+    width: 30%;
+
+    border-radius: .5rem;
+
+    background-color: #40aa0b;
+    color: white;
+    
+    font-family: Lato;
+    font-size: .9rem;
+    font-weight: bold;
 }
