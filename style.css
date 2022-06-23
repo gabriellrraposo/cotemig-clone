@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -60,7 +60,7 @@ header {
 }
 
 .barraNavegacao nav {
-    width: 65%;
+    width: 70%;
 }
 
 .barraNavegacao nav h1 {
@@ -73,6 +73,28 @@ header {
 .barraNavegacao nav a {
     color: white;
     margin-left: 4%;
+}
+
+.barraNavegacao a i {
+    margin-left: 1%;
+    padding: .4% .6%;
+    font-size: .7rem;
+
+    border-radius: 50%;
+    background-color: rgb(37, 37, 37);
+}
+
+#areaRestrita {
+    margin-left: 2%;
+}
+
+#iconeCadeado {
+    background: none;
+    border-radius: 0;
+
+    font-size: .8rem;
+    margin-right: 1.5%;
+    padding: 0;
 }
 
 #logo {
@@ -114,3 +136,32 @@ header {
     font-size: .9rem;
     font-weight: bold;
 }
+
+/* Main */
+
+main {
+    padding: 0 20%;
+}
+
+/* Serviços */
+
+.textoServicos {
+    text-align: center;
+}
+
+.textoServicos h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+
+    margin-bottom: 1.5%;
+}
+
+.textoServicos p {
+    font-size: 1.1rem;
+    color: #424242;
+}
+
+.imgServico img {
+    width: 300px;
+}
+
