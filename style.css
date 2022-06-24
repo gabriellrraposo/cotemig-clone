@@ -306,3 +306,30 @@ main {
     padding-bottom: 3%;
     color: #424242;
 }
+
+/* Atendimento */
+
+.atendimento {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 4% 4%;
+}
+
+.atendimento h1 {
+    font-size: 1.3rem;
+    color: #424242;
+    margin-bottom: 1.7%;
+}
+
+.atendimento a {
+    color: #40aa0b;
+    font-size: 2.1rem;
+    font-weight: 900;
+}
+
+.atendimento a i {
+    margin-right: 2%;
+    font-size: 1.8rem;
+}
