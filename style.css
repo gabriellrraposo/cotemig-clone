@@ -56,7 +56,6 @@ header {
     width: 100%;
     padding: 0 20%;
     background-color: rgba(0, 0, 0, 75%);
-
 }
 
 .barraNavegacao nav {
@@ -357,3 +356,4 @@ main {
     display: flex;
     flex-direction: row;
 }
+
