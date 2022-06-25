@@ -139,7 +139,7 @@ header {
 /* Main */
 
 main {
-    padding: 0 20%;
+    padding: 0% 20% 2.5% 20%;
 }
 
 /* Serviços */
@@ -368,7 +368,6 @@ main {
 }
 
 .containerNoticias {
-    border: solid 1px black;
     width: 24%;
     height: 325px;
 
@@ -385,9 +384,8 @@ main {
 
 .containerNoticias span {
     font-size: .8rem;
-    font-weight: 500;
     font-style: italic;
-
+    font-weight: lighter;
     margin-top: 3%;
 }
 
@@ -396,17 +394,88 @@ main {
 }
 
 .noticia1 {
-    background: url(img/imgNoticia1.png);
+    background: linear-gradient(to top, rgba(10, 10, 10, 100), rgba(7, 7, 7, 0)), url(img/imgNoticia1.png);
 }
 
 .noticia2 {
-    background: url(img/imgNoticia2.png);
+    background: linear-gradient(to top, rgba(10, 10, 10, 100), rgba(7, 7, 7, 0)), url(img/imgNoticia2.png);
 }
 
 .noticia3 {
-    background: url(img/imgNoticia3.jpg);
+    background: linear-gradient(to top, rgba(10, 10, 10, 100), rgba(7, 7, 7, 0)), url(img/imgNoticia3.jpg);
 }
 
 .noticia4 {
-    background: url(img/imgNoticia4.png);
+    background: linear-gradient(to top, rgba(10, 10, 10, 100), rgba(7, 7, 7, 0)), url(img/imgNoticia4.png);
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(21 21 21);
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 2% 20%;
+
+    color: white;
+}
+
+.opcoesFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcao {
+    display: flex;
+    flex-direction: column;
+}
+
+.opcao a {
+    font-size: .85rem;
+    color: white;
+}
+
+.opcao h3 {
+    margin-bottom: 3vh;
+}
+
+.opcao a {
+    margin-bottom: 2vh;
+    color: #bdbdbd;
+}
+
+.oComeco {
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oComeco h5 {
+    font-size: 1rem;
+}
+
+.oComeco p {
+    line-height: 1.7rem;
+    color: #bdbdbd;
+}
+
+.oComeco button {
+    margin-top: 4%;
+    padding: 1.3% 0;
+    width: 100%;
+    height: 25%;
+
+    border-radius: .5rem;
+
+    background-color: #40aa0b;
+    color: white;
+    border: none;
+    
+    font-family: Lato;
+    font-size: .9rem;
+    font-weight: bold;
 }
