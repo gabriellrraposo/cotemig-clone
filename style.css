@@ -411,6 +411,7 @@ main {
 
 /* Footer */
 
+/* Superior */
 footer {
     background-color: rgb(21 21 21);
 
@@ -420,6 +421,11 @@ footer {
     padding: 2% 20%;
 
     color: white;
+}
+
+footer hr {
+    height: 1px;
+    margin: 3% 0;
 }
 
 .opcoesFooter {
@@ -478,4 +484,43 @@ footer {
     font-family: Lato;
     font-size: .9rem;
     font-weight: bold;
+}
+
+/* Inferior */
+.opcoesRedesSociais {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.cotemigInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.cotemigInfo img {
+    width: 115px;
+}
+
+.cotemigInfo span {
+    max-width: 52%;
+    font-size: .75rem;
+
+    margin-top: 5%;
+}
+
+.colegioCotemig {
+    display: flex;
+    flex-direction: row;
+}
+
+.faculdadeCotemig {
+    display: flex;
+    flex-direction: row;
+}
+
+.boxRedeSocial {
+    display: flex;
+    flex-direction: column;
 }
