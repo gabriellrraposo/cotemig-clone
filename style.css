@@ -513,14 +513,44 @@ footer hr {
 .colegioCotemig {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5%;
 }
 
 .faculdadeCotemig {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .boxRedeSocial {
     display: flex;
     flex-direction: column;
+
+    color: #bdbdbd;
+    font-size: .7rem;
+}
+
+.boxRedeSocial i {
+    font-size: 1.5rem;
+    padding: .5vw 1.5vw;
+    margin-right: 1rem;
+    border-radius: .5rem;
+}
+
+.fa-facebook-square {
+    background-color: #4460a0;
+}
+
+.fa-instagram {
+    background-color: white;
+    color: black;
+}
+
+.fa-linkedin-in {
+    background-color: #007ab9;
+}
+
+.fa-twitter {
+    background-color: #00aaec;
 }
